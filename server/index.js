@@ -3,6 +3,8 @@ const app =express()
 const mongoose = require('mongoose')
 const {DB} = require("./key")
 const cors= require('cors')
+require('./model/tasks')
+
 const port = 8080
 
 
@@ -20,8 +22,11 @@ mongoose
     });
 
 app.use(express.json());
+
 //routes
 app.use(cors());
+app.use(require('./routes/task'))
+
 
 
 app.listen(port, () => {
