@@ -1,0 +1,48 @@
+* {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#search {
+    float: right;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    padding: 50px;
+    padding-top: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+form button {
+    padding: 10px;
+    margin: 10px 10px 10px 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+
+#cancelbtn {
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    cursor: pointer;
+}
